@@ -16,10 +16,13 @@ class A:
         a2 = x
 
     def ma1():
-        print("mb1")
+        print("ma1")
 
     def ma2():
-        print("mb1")
+        print("ma1")
+
+    def ma3():
+        print("Alteração a classe A partir do clone")
 
 
 class B:
@@ -44,4 +47,16 @@ class B:
     
     def mb2():
         print("mb2")
+ 
+class C:
+    def __init__(c1, c2):
+        self.c1 = c1
+        self.c2 = c2
+
+    def mc1():
+        print("mc1")
+
+    def mc2():
+        print("mc1")
+
  
