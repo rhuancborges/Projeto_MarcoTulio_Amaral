@@ -76,5 +76,5 @@ class D:
     def md2():
         pass
     
-    def md2():
+    def md4():
         print("md4")
