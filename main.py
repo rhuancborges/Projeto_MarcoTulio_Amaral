@@ -47,6 +47,9 @@ class B:
     
     def mb2():
         print("mb2")
+
+    def mb3():
+        print("mb3")
  
 class C:
     def __init__(c1, c2):
@@ -59,4 +62,16 @@ class C:
     def mc2():
         print("mc1")
 
- 
+    def mc3():
+        print("mc3")
+
+class D:
+    def __init__(d1, d2):
+        self.d1 = d1
+        self.d2 = d2
+
+    def md1():
+        pass
+    
+    def md2():
+        pass
