@@ -23,6 +23,9 @@ class A:
 
     def ma3():
         print("Alteração a classe A partir do clone")
+        
+    def getSoma(a,b):
+        return a+b
 
 
 class B:
